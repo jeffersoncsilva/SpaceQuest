@@ -1,13 +1,12 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class EscolhaPersonagem : MonoBehaviour
 {
-    public GameObject paiDeTodos;
-    public int[] posicaoPaiDeTodos;
+    private int telaAtual = 1;
+    private Animator anim;
 
-    private int telaAtual;
+
     private Vector2 firstPressPos;
     private Vector2 secondPressPos;
     private Vector2 currentSwipe;
@@ -17,23 +16,24 @@ public class EscolhaPersonagem : MonoBehaviour
 
     // Use this for initialization
     void Start()
-    {  
-        telaAtual = 0;
+    {
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("X: " + paiDeTodos.transform.position.x);
-        Debug.Log("Y: " + paiDeTodos.transform.position.y);
-        Debug.Log("Z: " + paiDeTodos.transform.position.z);
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-            MoveParaEsquerda();
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-            MoveParaDireita();
 
-        //Swipe();
+        //if (Input.GetKeyDown(KeyCode.LeftArrow))
+        //{
+        //    MoveEsquerda();
+        //}
+        //if (Input.GetKeyDown(KeyCode.RightArrow))
+        //{
+        //    MoveDireita();
+        //}
 
+        Swipe();
     }
 
     private void Swipe()
@@ -60,45 +60,35 @@ public class EscolhaPersonagem : MonoBehaviour
                 //swipe left
                 if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
                 {
-                    MoveParaEsquerda();
+                    MoveDireita();
                 }
                 //swipe right
                 if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
                 {
-                    MoveParaDireita();
+                    MoveEsquerda();
                 }
             }
         }
     }
 
-    private void MoveParaEsquerda()
+    private void MoveDireita()
     {
-        if (irLef)
+        if (telaAtual + 1 <= 5)
         {
-            irRight = true;
+            string trigguer = "Tela" + telaAtual;
+            anim.SetTrigger(trigguer);
             telaAtual++;
-
-            paiDeTodos.transform.position = new Vector3(posicaoPaiDeTodos[telaAtual], 139, 0);
-            
-            if (telaAtual >= 4)
-                irLef = false;
-
-           
         }
     }
 
-    private void MoveParaDireita()
+    private void MoveEsquerda()
     {
-        if(irRight)
+        if (telaAtual - 1 >= 1)
         {
-            irLef = true;
             telaAtual--;
-
-            paiDeTodos.transform.position = new Vector3(posicaoPaiDeTodos[telaAtual], 139, 0); ;
-
-
-            if (telaAtual <= 0)
-                irRight = false;
+            string trigguer = "Volta" + telaAtual;
+            anim.SetTrigger(trigguer);
         }
     }
+
 }

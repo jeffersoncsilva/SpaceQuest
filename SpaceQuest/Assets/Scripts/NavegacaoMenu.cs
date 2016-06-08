@@ -2,15 +2,19 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class NavegacaoMenu : MonoBehaviour {
+public class NavegacaoMenu : MonoBehaviour
+{
     public GameObject cliqueArui;
     public GameObject botoes;
     public GameObject escolhaPersonagem;
 
     private bool clickHere = true;
-	// Update is called once per frame
-	void Update () {
-        if (Input.GetKeyDown("Fire1") && clickHere)
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetButtonDown("Fire1") && clickHere)
         {
             cliqueArui.SetActive(false);
             botoes.SetActive(true);
