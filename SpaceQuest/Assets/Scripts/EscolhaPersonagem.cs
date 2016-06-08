@@ -24,16 +24,16 @@ public class EscolhaPersonagem : MonoBehaviour
     void Update()
     {
 
-        //if (Input.GetKeyDown(KeyCode.LeftArrow))
-        //{
-        //    MoveEsquerda();
-        //}
-        //if (Input.GetKeyDown(KeyCode.RightArrow))
-        //{
-        //    MoveDireita();
-        //}
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            MoveEsquerda();
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            MoveDireita();
+        }
 
-        Swipe();
+        //Swipe();
     }
 
     private void Swipe()
