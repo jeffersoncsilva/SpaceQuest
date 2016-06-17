@@ -33,7 +33,7 @@ public class EscolhaPersonagem : MonoBehaviour
             MoveDireita();
         }
 
-        //Swipe();
+        Swipe();
     }
 
     private void Swipe()
@@ -73,7 +73,7 @@ public class EscolhaPersonagem : MonoBehaviour
 
     private void MoveDireita()
     {
-        if (telaAtual + 1 <= 5)
+        if (telaAtual + 1 <= 3)
         {
             string trigguer = "Tela" + telaAtual;
             anim.SetTrigger(trigguer);
