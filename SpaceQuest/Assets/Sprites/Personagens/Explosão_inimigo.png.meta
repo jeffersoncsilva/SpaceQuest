@@ -1,0 +1,775 @@
+fileFormatVersion: 2
+guid: 036128c055c816447a1a0bf2a3350a6d
+timeCreated: 1466295062
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "Explos\xE3o_inimigo_0"
+    21300002: "Explos\xE3o_inimigo_1"
+    21300004: "Explos\xE3o_inimigo_2"
+    21300006: "Explos\xE3o_inimigo_3"
+    21300008: "Explos\xE3o_inimigo_4"
+    21300010: "Explos\xE3o_inimigo_5"
+    21300012: "Explos\xE3o_inimigo_6"
+    21300014: "Explos\xE3o_inimigo_7"
+    21300016: "Explos\xE3o_inimigo_8"
+    21300018: "Explos\xE3o_inimigo_9"
+    21300020: "Explos\xE3o_inimigo_10"
+    21300022: "Explos\xE3o_inimigo_11"
+    21300024: "Explos\xE3o_inimigo_12"
+    21300026: "Explos\xE3o_inimigo_13"
+    21300028: "Explos\xE3o_inimigo_14"
+    21300030: "Explos\xE3o_inimigo_15"
+    21300032: "Explos\xE3o_inimigo_16"
+    21300034: "Explos\xE3o_inimigo_17"
+    21300036: "Explos\xE3o_inimigo_18"
+    21300038: "Explos\xE3o_inimigo_19"
+    21300040: "Explos\xE3o_inimigo_20"
+    21300042: "Explos\xE3o_inimigo_21"
+    21300044: "Explos\xE3o_inimigo_22"
+    21300046: "Explos\xE3o_inimigo_23"
+    21300048: "Explos\xE3o_inimigo_24"
+    21300050: "Explos\xE3o_inimigo_25"
+    21300052: "Explos\xE3o_inimigo_26"
+    21300054: "Explos\xE3o_inimigo_27"
+    21300056: "Explos\xE3o_inimigo_28"
+    21300058: "Explos\xE3o_inimigo_29"
+    21300060: "Explos\xE3o_inimigo_30"
+    21300062: "Explos\xE3o_inimigo_31"
+    21300064: "Explos\xE3o_inimigo_32"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 100
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "Explos\xE3o_inimigo_0"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1016
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.25833, y: 36.7583}
+        - {x: -33.74167, y: 36.7583}
+        - {x: -33.74167, y: -35.2417}
+        - {x: -21.741669, y: -35.2417}
+        - {x: -10.741669, y: -31.2417}
+        - {x: 9.258331, y: -35.2417}
+        - {x: 34.25833, y: -35.2417}
+        - {x: 34.25833, y: -32.2417}
+        - {x: 35.25833, y: -14.241699}
+    - name: "Explos\xE3o_inimigo_1"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1005
+        width: 187
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.98854, y: 0.984375}
+        - {x: 83.98854, y: 3.984375}
+        - {x: 82.98854, y: 4.984375}
+        - {x: 7.9885406, y: 45.984375}
+        - {x: -3.0114594, y: 45.984375}
+        - {x: -83.01146, y: 6.984375}
+        - {x: -83.01146, y: -0.015625}
+        - {x: -67.01146, y: -4.015625}
+        - {x: -0.011459351, y: -42.015625}
+        - {x: 2.9885406, y: -42.015625}
+        - {x: 4.9885406, y: -41.015625}
+        - {x: 7.9885406, y: -30.015625}
+        - {x: 21.98854, y: -17.015625}
+        - {x: 77.98854, y: -2.015625}
+    - name: "Explos\xE3o_inimigo_2"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 986
+        width: 190
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.411469, y: 63.10205}
+        - {x: -56.41147, y: 58.10205}
+        - {x: -84.41147, y: 9.102051}
+        - {x: -84.41147, y: -28.89795}
+        - {x: -20.411469, y: -62.89795}
+        - {x: 33.58853, y: -62.89795}
+        - {x: 84.58853, y: -42.89795}
+        - {x: 84.58853, y: 58.10205}
+        - {x: 81.58853, y: 63.10205}
+    - name: "Explos\xE3o_inimigo_3"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 998
+        width: 190
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85.68854, y: 7.7645264}
+        - {x: 28.688538, y: 31.764526}
+        - {x: 24.688538, y: 32.764526}
+        - {x: 21.688538, y: 52.764526}
+        - {x: -58.311462, y: 52.764526}
+        - {x: -84.31146, y: 43.764526}
+        - {x: -84.31146, y: -44.235474}
+        - {x: -79.31146, y: -51.235474}
+        - {x: 1.6885376, y: -51.235474}
+        - {x: 4.6885376, y: -50.235474}
+        - {x: 25.688538, y: -27.235474}
+        - {x: 26.688538, y: -24.235474}
+        - {x: 85.68854, y: -4.2354736}
+    - name: "Explos\xE3o_inimigo_4"
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1045
+        width: 166
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: "Explos\xE3o_inimigo_5"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 792
+        width: 190
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.11146, y: 65.224976}
+        - {x: -84.11146, y: 31.224976}
+        - {x: -84.11146, y: -58.775024}
+        - {x: -83.11146, y: -59.775024}
+        - {x: -63.111458, y: -63.775024}
+        - {x: 74.88854, y: -63.775024}
+        - {x: 85.88854, y: -51.775024}
+        - {x: 85.88854, y: 55.224976}
+        - {x: 83.88854, y: 65.224976}
+    - name: "Explos\xE3o_inimigo_6"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 792
+        width: 190
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.51146, y: 65.224976}
+        - {x: -69.51146, y: 58.224976}
+        - {x: -84.51146, y: 43.224976}
+        - {x: -84.51146, y: -41.775024}
+        - {x: -77.51146, y: -63.775024}
+        - {x: 53.48854, y: -63.775024}
+        - {x: 70.48854, y: -62.775024}
+        - {x: 85.48854, y: -33.775024}
+        - {x: 85.48854, y: 45.224976}
+        - {x: 63.48854, y: 65.224976}
+    - name: "Explos\xE3o_inimigo_7"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 792
+        width: 190
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.58853, y: 65.224976}
+        - {x: -84.41147, y: 65.224976}
+        - {x: -84.41147, y: -37.775024}
+        - {x: -47.41147, y: -63.775024}
+        - {x: 36.58853, y: -63.775024}
+        - {x: 73.58853, y: -43.775024}
+        - {x: 84.58853, y: -35.775024}
+        - {x: 84.58853, y: 37.224976}
+    - name: "Explos\xE3o_inimigo_8"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 792
+        width: 190
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.311462, y: 65.224976}
+        - {x: -84.31146, y: 35.224976}
+        - {x: -84.31146, y: -56.775024}
+        - {x: -66.31146, y: -63.775024}
+        - {x: 85.68854, y: -63.775024}
+        - {x: 85.68854, y: 65.224976}
+    - name: "Explos\xE3o_inimigo_9"
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 792
+        width: 190
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52.711487, y: 65.224976}
+        - {x: -84.71149, y: 60.224976}
+        - {x: -84.71149, y: -36.775024}
+        - {x: -43.711487, y: -63.775024}
+        - {x: 53.288513, y: -63.775024}
+        - {x: 76.28851, y: -58.775024}
+        - {x: 85.28851, y: -26.775024}
+        - {x: 85.28851, y: 35.224976}
+        - {x: 52.288513, y: 65.224976}
+    - name: "Explos\xE3o_inimigo_10"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 600
+        width: 190
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.11146, y: 64.625}
+        - {x: -84.11146, y: 41.625}
+        - {x: -84.11146, y: -36.375}
+        - {x: -58.111458, y: -64.375}
+        - {x: 52.888542, y: -64.375}
+        - {x: 85.88854, y: -53.375}
+        - {x: 85.88854, y: 48.625}
+        - {x: 55.888542, y: 64.625}
+    - name: "Explos\xE3o_inimigo_11"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 600
+        width: 190
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.51146, y: 64.125}
+        - {x: -49.51146, y: 63.125}
+        - {x: -82.51146, y: 41.125}
+        - {x: -84.51146, y: 30.125}
+        - {x: -84.51146, y: -52.875}
+        - {x: -80.51146, y: -63.875}
+        - {x: 80.48854, y: -63.875}
+        - {x: 85.48854, y: -62.875}
+        - {x: 85.48854, y: 28.125}
+        - {x: 46.48854, y: 64.125}
+    - name: "Explos\xE3o_inimigo_12"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 595
+        width: 190
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.58853, y: 68.68225}
+        - {x: -47.41147, y: 68.68225}
+        - {x: -76.41147, y: 52.68225}
+        - {x: -84.41147, y: 21.682251}
+        - {x: -84.41147, y: -36.31775}
+        - {x: -74.41147, y: -67.31775}
+        - {x: 78.58853, y: -67.31775}
+        - {x: 84.58853, y: -66.31775}
+        - {x: 84.58853, y: 32.68225}
+        - {x: 70.58853, y: 61.68225}
+    - name: "Explos\xE3o_inimigo_13"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 580
+        width: 190
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.688538, y: 81.854126}
+        - {x: -49.311462, y: 81.854126}
+        - {x: -84.31146, y: 61.854126}
+        - {x: -84.31146, y: -58.145874}
+        - {x: -63.311462, y: -71.145874}
+        - {x: -28.311462, y: -81.145874}
+        - {x: 46.688538, y: -81.145874}
+        - {x: 85.68854, y: -58.145874}
+        - {x: 85.68854, y: 57.854126}
+        - {x: 70.68854, y: 77.854126}
+    - name: "Explos\xE3o_inimigo_14"
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 580
+        width: 190
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.288513, y: 81.854126}
+        - {x: -58.711487, y: 81.854126}
+        - {x: -84.71149, y: 76.854126}
+        - {x: -84.71149, y: -60.145874}
+        - {x: -73.71149, y: -62.145874}
+        - {x: -41.711487, y: -81.145874}
+        - {x: 44.288513, y: -81.145874}
+        - {x: 59.288513, y: -72.145874}
+        - {x: 85.28851, y: -53.145874}
+        - {x: 85.28851, y: 55.854126}
+    - name: "Explos\xE3o_inimigo_15"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 388
+        width: 190
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.88854, y: 76.75415}
+        - {x: 57.888542, y: 82.75415}
+        - {x: -41.111458, y: 82.75415}
+        - {x: -53.111458, y: 81.75415}
+        - {x: -84.11146, y: 59.75415}
+        - {x: -84.11146, y: -55.24585}
+        - {x: -65.11146, y: -72.24585}
+        - {x: -38.111458, y: -81.24585}
+        - {x: 45.888542, y: -81.24585}
+        - {x: 83.88854, y: -65.24585}
+        - {x: 85.88854, y: -63.24585}
+        - {x: 85.88854, y: 69.75415}
+    - name: "Explos\xE3o_inimigo_16"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 388
+        width: 190
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.51146, y: 83.25415}
+        - {x: -84.51146, y: 59.25415}
+        - {x: -84.51146, y: -53.74585}
+        - {x: -65.51146, y: -69.74585}
+        - {x: -39.51146, y: -81.74585}
+        - {x: 33.48854, y: -81.74585}
+        - {x: 58.48854, y: -77.74585}
+        - {x: 85.48854, y: -55.74585}
+        - {x: 85.48854, y: 59.25415}
+        - {x: 55.48854, y: 83.25415}
+    - name: "Explos\xE3o_inimigo_17"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 388
+        width: 190
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.58853, y: 82.75415}
+        - {x: -48.41147, y: 82.75415}
+        - {x: -73.41147, y: 78.75415}
+        - {x: -84.41147, y: 58.75415}
+        - {x: -84.41147, y: -53.24585}
+        - {x: -63.41147, y: -75.24585}
+        - {x: -34.41147, y: -81.24585}
+        - {x: 46.58853, y: -81.24585}
+        - {x: 84.58853, y: -63.24585}
+        - {x: 84.58853, y: 75.75415}
+    - name: "Explos\xE3o_inimigo_18"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 388
+        width: 190
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42.688538, y: 82.75415}
+        - {x: -47.311462, y: 82.75415}
+        - {x: -84.31146, y: 60.75415}
+        - {x: -84.31146, y: -55.24585}
+        - {x: -45.311462, y: -78.24585}
+        - {x: -26.311462, y: -81.24585}
+        - {x: 40.688538, y: -81.24585}
+        - {x: 85.68854, y: -65.24585}
+        - {x: 85.68854, y: 60.75415}
+        - {x: 58.688538, y: 76.75415}
+    - name: "Explos\xE3o_inimigo_19"
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 388
+        width: 190
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.288513, y: 83.25415}
+        - {x: -44.711487, y: 83.25415}
+        - {x: -78.71149, y: 71.25415}
+        - {x: -84.71149, y: 62.25415}
+        - {x: -84.71149, y: -62.74585}
+        - {x: -35.711487, y: -81.74585}
+        - {x: 34.288513, y: -81.74585}
+        - {x: 54.288513, y: -73.74585}
+        - {x: 85.28851, y: -71.74585}
+        - {x: 85.28851, y: 74.25415}
+    - name: "Explos\xE3o_inimigo_20"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 196
+        width: 190
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.888542, y: 82.15416}
+        - {x: -45.111458, y: 82.15416}
+        - {x: -84.11146, y: 60.15416}
+        - {x: -84.11146, y: -55.84584}
+        - {x: -56.111458, y: -80.84584}
+        - {x: -48.111458, y: -81.84584}
+        - {x: 46.888542, y: -81.84584}
+        - {x: 58.888542, y: -76.84584}
+        - {x: 85.88854, y: -56.84584}
+        - {x: 85.88854, y: 60.15416}
+    - name: "Explos\xE3o_inimigo_21"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 196
+        width: 190
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.48854, y: 58.15416}
+        - {x: 55.48854, y: 80.15416}
+        - {x: 44.48854, y: 82.15416}
+        - {x: -50.51146, y: 82.15416}
+        - {x: -84.51146, y: 62.15416}
+        - {x: -84.51146, y: -55.84584}
+        - {x: -55.51146, y: -80.84584}
+        - {x: -47.51146, y: -81.84584}
+        - {x: 69.48854, y: -81.84584}
+        - {x: 83.48854, y: -78.84584}
+        - {x: 85.48854, y: -61.84584}
+        - {x: 85.48854, y: 58.15416}
+    - name: "Explos\xE3o_inimigo_22"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 196
+        width: 190
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.58853, y: 73.15416}
+        - {x: 47.58853, y: 82.15416}
+        - {x: -39.41147, y: 82.15416}
+        - {x: -54.41147, y: 79.15416}
+        - {x: -84.41147, y: 58.15416}
+        - {x: -84.41147, y: -60.84584}
+        - {x: -60.41147, y: -76.84584}
+        - {x: -28.411469, y: -81.84584}
+        - {x: 39.58853, y: -81.84584}
+        - {x: 54.58853, y: -77.84584}
+        - {x: 84.58853, y: -62.84584}
+    - name: "Explos\xE3o_inimigo_23"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 196
+        width: 190
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.311462, y: 82.15416}
+        - {x: -84.31146, y: 58.15416}
+        - {x: -84.31146, y: -53.84584}
+        - {x: -70.31146, y: -68.84584}
+        - {x: -37.311462, y: -81.84584}
+        - {x: 57.688538, y: -81.84584}
+        - {x: 85.68854, y: -55.84584}
+        - {x: 85.68854, y: 57.15416}
+        - {x: 50.688538, y: 82.15416}
+    - name: "Explos\xE3o_inimigo_24"
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 254
+        width: 105
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.607239, y: -42.310425}
+        - {x: 47.60724, y: -18.310425}
+        - {x: 47.60724, y: 36.689575}
+        - {x: 45.60724, y: 41.689575}
+        - {x: 31.607239, y: 43.689575}
+        - {x: -46.39276, y: 43.689575}
+        - {x: -46.39276, y: -42.310425}
+    - name: "Explos\xE3o_inimigo_25"
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 38
+        width: 131
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.770832, y: 53.764584}
+        - {x: 21.770832, y: 55.764584}
+        - {x: -50.229168, y: 55.764584}
+        - {x: -58.229168, y: 51.764584}
+        - {x: -58.229168, y: -28.235416}
+        - {x: -55.229168, y: -43.235416}
+        - {x: -32.229168, y: -51.235416}
+        - {x: -6.229168, y: -25.235416}
+        - {x: -0.22916794, y: -47.235416}
+        - {x: 16.770832, y: -54.235416}
+        - {x: 36.770832, y: -54.235416}
+        - {x: 41.770832, y: -48.235416}
+        - {x: 59.770832, y: -17.235416}
+        - {x: 59.770832, y: 32.764584}
+    - name: "Explos\xE3o_inimigo_26"
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 24
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73.01146, y: 57.824997}
+        - {x: -73.01146, y: 6.824997}
+        - {x: 17.98854, y: -57.175003}
+        - {x: 73.98854, y: -57.175003}
+        - {x: 73.98854, y: -11.175003}
+        - {x: 67.98854, y: 33.824997}
+        - {x: 52.98854, y: 57.824997}
+      - - {x: -43.01146, y: 15.824997}
+        - {x: -43.01146, y: -48.175003}
+        - {x: -15.011459, y: -48.175003}
+        - {x: -14.011459, y: -46.175003}
+        - {x: -14.011459, y: 14.824997}
+        - {x: -15.011459, y: 15.824997}
+    - name: "Explos\xE3o_inimigo_27"
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 28
+        width: 97
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5885315, y: 62.879166}
+        - {x: -43.41147, y: 21.879166}
+        - {x: -43.41147, y: -4.1208344}
+        - {x: -10.4114685, y: -53.120834}
+        - {x: -3.4114685, y: -61.120834}
+        - {x: 13.5885315, y: -61.120834}
+        - {x: 26.588531, y: -54.120834}
+        - {x: 43.58853, y: -30.120834}
+        - {x: 43.58853, y: 62.879166}
+      - - {x: 26.588531, y: 19.879166}
+        - {x: 25.588531, y: 17.879166}
+        - {x: 25.588531, y: -6.1208344}
+        - {x: 36.58853, y: -23.120834}
+        - {x: 43.58853, y: -23.120834}
+        - {x: 43.58853, y: 31.879166}
+        - {x: 40.58853, y: 31.879166}
+    - name: "Explos\xE3o_inimigo_28"
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 24
+        width: 111
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.216675, y: 56.824997}
+        - {x: -49.216675, y: 35.824997}
+        - {x: -49.216675, y: -1.175003}
+        - {x: -40.216675, y: -11.175003}
+        - {x: 10.783325, y: -54.175003}
+        - {x: 15.783325, y: -56.175003}
+        - {x: 49.783325, y: -56.175003}
+        - {x: 49.783325, y: 31.824997}
+        - {x: 30.783325, y: 56.824997}
+      - - {x: -33.216675, y: 56.824997}
+        - {x: -49.216675, y: 56.824997}
+        - {x: -49.216675, y: 28.824997}
+        - {x: -48.216675, y: 28.824997}
+        - {x: -39.216675, y: 36.824997}
+        - {x: -31.216675, y: 47.824997}
+        - {x: -31.216675, y: 52.824997}
+    - name: "Explos\xE3o_inimigo_29"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 36
+        width: 76
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.8114624, y: 60.4875}
+        - {x: -33.811462, y: 3.4874992}
+        - {x: -33.811462, y: -55.5125}
+        - {x: -27.811462, y: -58.5125}
+        - {x: 33.188538, y: -58.5125}
+        - {x: 35.188538, y: -56.5125}
+        - {x: 35.188538, y: 60.4875}
+    - name: "Explos\xE3o_inimigo_30"
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 45
+        width: 114
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.7822876, y: 56.484375}
+        - {x: -24.782288, y: 40.484375}
+        - {x: -50.782288, y: -4.515625}
+        - {x: -50.782288, y: -47.515625}
+        - {x: -22.782288, y: -54.515625}
+        - {x: 51.217712, y: -54.515625}
+        - {x: 51.217712, y: 44.484375}
+        - {x: 48.217712, y: 56.484375}
+    - name: "Explos\xE3o_inimigo_31"
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 84
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.529175, y: 38.637497}
+        - {x: -19.529175, y: -13.362503}
+        - {x: -14.529175, y: -37.362503}
+        - {x: 16.470825, y: -37.362503}
+        - {x: 20.470825, y: -33.362503}
+        - {x: 20.470825, y: 38.637497}
+    - name: "Explos\xE3o_inimigo_32"
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 41
+        width: 74
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.211487, y: 17.930206}
+        - {x: -33.211487, y: 5.9302063}
+        - {x: -33.211487, y: -17.069794}
+        - {x: 11.788513, y: -17.069794}
+        - {x: 33.788513, y: -1.0697937}
+        - {x: 33.788513, y: 17.930206}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

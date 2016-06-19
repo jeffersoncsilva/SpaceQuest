@@ -12,7 +12,7 @@ public class ReiniciaJogo : MonoBehaviour {
     public void ReiniciarJogo()
     {
         Player.GameOver = false;
-        Player.QtdTiros = Player.TIROS_INICIO_JOGO;
+       
         SceneManager.LoadScene("jogo");
     }
 

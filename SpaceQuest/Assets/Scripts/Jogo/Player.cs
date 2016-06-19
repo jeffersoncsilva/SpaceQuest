@@ -4,10 +4,9 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-    public const int TIROS_INICIO_JOGO = 20;
+    private const string DINHEIRO = "Dinheiro";
 
     public static bool GameOver = false;
-    public static int QtdTiros;
 
     public int speedPlayer;
     public int speedTiro;
@@ -16,20 +15,20 @@ public class Player : MonoBehaviour
 
     private bool isRigth;
     private bool isLeft;
-    private Text txt_municao;
 
     private GameObject gameOverScreen;
 
+    private int dinheiro;
+
     void Start()
     {
-        QtdTiros = TIROS_INICIO_JOGO;
-        this.txt_municao = GameObject.Find("Txt_Municao").GetComponent<Text>();
+        PlayerPrefs.SetInt("nave",2);
         this.gameOverScreen = GameObject.Find("GameOverScreen");
         this.gameOverScreen.SetActive(false);
         isRigth = true;
         isLeft = true;
         GameOver = false;
-        txt_municao.text = QtdMunicao();
+        dinheiro = 0;
     }
 
     void Update()
@@ -43,24 +42,18 @@ public class Player : MonoBehaviour
 
     private void VerificaTiro()
     {
-        if (Input.GetButtonDown("Fire1") && QtdTiros > 0)
+        if (Input.GetButtonDown("Fire1"))
         {
             GameObject tempPrefab = Instantiate(tiro, targetTiro.position, targetTiro.rotation) as GameObject;
             tempPrefab.GetComponent<Rigidbody2D>().velocity = transform.up * 25;
-            QtdTiros--;
-            this.txt_municao.text = QtdMunicao();
+           
         }
-    }
-
-    private string QtdMunicao()
-    {
-        return string.Format("Tiros: " + QtdTiros);
     }
 
     private void MovimentaPersonagem()
     {
         //input pelo teclado
-/*
+
         if (Input.GetKey(KeyCode.LeftArrow) && isLeft)
         {
             transform.Translate(Vector2.left * speedPlayer * Time.deltaTime);
@@ -71,29 +64,27 @@ public class Player : MonoBehaviour
             transform.Translate(Vector2.right * speedPlayer * Time.deltaTime);
             isLeft = true;
         }
-*/
+
 
         //input pelo acelerometro
-        Vector3 dir = Vector3.zero;
-        dir.x = Input.acceleration.x;
+        //Vector3 dir = Vector3.zero;
+        //dir.x = Input.acceleration.x;
 
-        if (dir.sqrMagnitude > 1)
-            dir.Normalize();
+        //if (dir.sqrMagnitude > 1)
+        //    dir.Normalize();
 
-        dir *= Time.deltaTime;
+        //dir *= Time.deltaTime;
 
-        if (dir.x < 0 && isLeft)
-        {
-            transform.Translate(dir * speedPlayer);
-            isRigth = true;
-        }
-        else if (dir.x > 0 && isRigth)
-        {
-            transform.Translate(dir * speedPlayer);
-            isLeft = true;
-        }
-
-
+        //if (dir.x < 0 && isLeft)
+        //{
+        //    transform.Translate(dir * speedPlayer);
+        //    isRigth = true;
+        //}
+        //else if (dir.x > 0 && isRigth)
+        //{
+        //    transform.Translate(dir * speedPlayer);
+        //    isLeft = true;
+        //}
     }
 
     void OnTriggerEnter2D(Collider2D coll)
@@ -111,9 +102,29 @@ public class Player : MonoBehaviour
         else if(coll.transform.CompareTag("TiroInimigo") || coll.transform.CompareTag("Inimigo"))
         {
             GameOver = true;
+            GravaDinheiro(this.dinheiro);
             this.gameOverScreen.SetActive(true);
+        }
+        else if (coll.transform.CompareTag("Estrela"))
+        {
+            this.dinheiro += 1;
+            Destroy(coll.gameObject);
         }
     }
 
-    
+    private int GetDinheiroSalvo()
+    {
+        return PlayerPrefs.GetInt(DINHEIRO);
+    }
+
+    private void GravaDinheiro(int dinheiro)
+    {
+        int d = GetDinheiroSalvo();
+        PlayerPrefs.SetInt(DINHEIRO, Soma(d, dinheiro));
+    }
+
+    private int Soma(int a, int b)
+    {
+        return a + b;
+    }
 }

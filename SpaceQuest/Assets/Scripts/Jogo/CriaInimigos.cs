@@ -2,25 +2,39 @@
 using System.Collections;
 
 public class CriaInimigos : MonoBehaviour {
+    private const int QTD_MAXIMA = 5;//para saber quantos inimigos tem que morrer para aumentar a frequencia deles.
+    public static int InimigosMortos;
 
     public GameObject[] inimigos;
     public float timeRespawn;
-    public int speed;
+    public float speed;
+
+    private int qtdInimigosMortos;//para saber quantos ja foram mortos.
     private float lastRespawn;
 
     void Start()
     {
-        lastRespawn = Time.fixedTime;
+        InimigosMortos = 0;
+        this.lastRespawn = Time.fixedTime;
     }
 
     void Update()
     {
         if (!Player.GameOver)
         {
-            if (Time.fixedTime >= lastRespawn + timeRespawn)
+            if (Time.fixedTime >= this.lastRespawn + this.timeRespawn)
             {
                 CriaInimigo();
             }
+            if(InimigosMortos >= this.qtdInimigosMortos + QTD_MAXIMA)
+            {
+                if (this.timeRespawn > 0.3f)
+                    this.timeRespawn -= 0.1f;
+
+                this.speed += 0.2f;
+                this.qtdInimigosMortos = InimigosMortos;
+            }
+
         }
 
     }
