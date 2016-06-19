@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 2a4db56211bf3b842ae47baf4271e50c
+timeCreated: 1466365863
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: nave_3_0
+    21300002: nave_3_1
+    21300004: nave_3_2
+    21300006: nave_3_3
+    21300008: nave_3_4
+    21300010: nave_3_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: nave_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 814.5
+        width: 545
+        height: 814.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: -226}
+        - {x: 17, y: -241}
+        - {x: 46, y: -241}
+        - {x: 86, y: -215}
+        - {x: 130, y: -141}
+        - {x: 130, y: -84}
+        - {x: 53, y: 33}
+        - {x: 36, y: 140}
+        - {x: 7, y: 235}
+        - {x: -16, y: 235}
+        - {x: -38, y: 210}
+        - {x: -51, y: 71}
+        - {x: -130, y: -66}
+        - {x: -130, y: -150}
+        - {x: -105, y: -200}
+        - {x: -55, y: -235}
+        - {x: -39, y: -227}
+        - {x: -37, y: -222}
+        - {x: -37, y: -199}
+        - {x: -37, y: -207}
+        - {x: -27, y: -237}
+        - {x: -23, y: -241}
+        - {x: -20, y: -240}
+        - {x: -14, y: -223}
+        - {x: -6, y: -234}
+        - {x: 2, y: -237}
+    - name: nave_3_1
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 814.5
+        width: 545
+        height: 814.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.252319, y: -219}
+        - {x: 27.25232, y: -232}
+        - {x: 77.25232, y: -189}
+        - {x: 118.25232, y: -143}
+        - {x: 118.25232, y: -93}
+        - {x: 85.25232, y: -27}
+        - {x: 9.252319, y: 193}
+        - {x: -2.7476807, y: 236}
+        - {x: -8.747681, y: 239}
+        - {x: -21.74768, y: 239}
+        - {x: -30.74768, y: 215}
+        - {x: -39.74768, y: 104}
+        - {x: -51.74768, y: 71}
+        - {x: -61.74768, y: 36}
+        - {x: -80.74768, y: -2}
+        - {x: -117.74768, y: -80}
+        - {x: -117.74768, y: -143}
+        - {x: -62.74768, y: -236}
+        - {x: -44.74768, y: -228}
+        - {x: -38.74768, y: -239}
+        - {x: -32.74768, y: -239}
+        - {x: -16.74768, y: -235}
+        - {x: -13.747681, y: -228}
+        - {x: 2.2523193, y: -238}
+    - name: nave_3_2
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 814.5
+        width: 545
+        height: 814.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.50464, y: 237}
+        - {x: 30.504639, y: 223}
+        - {x: 3.5046387, y: 78}
+        - {x: -6.4953613, y: 40}
+        - {x: -72.49536, y: -83}
+        - {x: -72.49536, y: -140}
+        - {x: 0.5046387, y: -229}
+        - {x: 5.5046387, y: -237}
+        - {x: 39.50464, y: -237}
+        - {x: 51.50464, y: -204}
+        - {x: 74.50464, y: -38}
+        - {x: 74.50464, y: 127}
+        - {x: 51.50464, y: 237}
+    - name: nave_3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 545
+        height: 814.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -240.18692}
+        - {x: 39, y: -240.18692}
+        - {x: 54, y: -236.18692}
+        - {x: 130, y: -143.18692}
+        - {x: 130, y: -85.18692}
+        - {x: 46, y: 43.81308}
+        - {x: 27, y: 104.81308}
+        - {x: 8, y: 230.81308}
+        - {x: 0, y: 234.81308}
+        - {x: -14, y: 234.81308}
+        - {x: -29, y: 218.81308}
+        - {x: -64, y: 35.81308}
+        - {x: -130, y: -85.18692}
+        - {x: -130, y: -156.18692}
+        - {x: -58, y: -240.18692}
+        - {x: -57, y: -240.18692}
+        - {x: -42, y: -227.18692}
+        - {x: -37, y: -222.18692}
+        - {x: -37, y: -198.18692}
+        - {x: -37, y: -206.18692}
+        - {x: -28, y: -234.18692}
+        - {x: -23, y: -240.18692}
+        - {x: -20, y: -239.18692}
+        - {x: -18, y: -234.18692}
+        - {x: -13, y: -216.18692}
+        - {x: -9, y: -233.18692}
+    - name: nave_3_4
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0.5
+        width: 545
+        height: 814.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119.25232, y: -78.18692}
+        - {x: 57.25232, y: 56.81308}
+        - {x: 43.25232, y: 166.81308}
+        - {x: 28.25232, y: 238.81308}
+        - {x: 9.252319, y: 238.81308}
+        - {x: -4.7476807, y: 229.81308}
+        - {x: -45.74768, y: 78.81308}
+        - {x: -117.74768, y: -83.18692}
+        - {x: -117.74768, y: -143.18692}
+        - {x: -116.74768, y: -151.18692}
+        - {x: -30.74768, y: -227.18692}
+        - {x: -26.74768, y: -227.18692}
+        - {x: -17.74768, y: -222.18692}
+        - {x: -12.747681, y: -217.18692}
+        - {x: -12.747681, y: -198.18692}
+        - {x: -11.747681, y: -201.18692}
+        - {x: -3.7476807, y: -229.18692}
+        - {x: 1.2523193, y: -236.18692}
+        - {x: 4.2523193, y: -235.18692}
+        - {x: 6.2523193, y: -226.18692}
+        - {x: 25.25232, y: -237.18692}
+        - {x: 31.25232, y: -238.18692}
+        - {x: 47.25232, y: -238.18692}
+        - {x: 57.25232, y: -236.18692}
+        - {x: 90.25232, y: -220.18692}
+        - {x: 119.25232, y: -142.18692}
+    - name: nave_3_5
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 0.5
+        width: 545
+        height: 814.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 73.50464, y: -80.18692}
+        - {x: 2.5046387, y: 54.81308}
+        - {x: -16.495361, y: 184.81308}
+        - {x: -36.49536, y: 236.81308}
+        - {x: -46.49536, y: 236.81308}
+        - {x: -48.49536, y: 235.81308}
+        - {x: -66.49536, y: 164.81308}
+        - {x: -72.49536, y: 94.81308}
+        - {x: -72.49536, y: -8.18692}
+        - {x: -63.49536, y: -114.18692}
+        - {x: -40.49536, y: -236.18692}
+        - {x: -24.495361, y: -236.18692}
+        - {x: 1.5046387, y: -231.18692}
+        - {x: 74.50464, y: -138.18692}
+        - {x: 74.50464, y: -96.18692}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

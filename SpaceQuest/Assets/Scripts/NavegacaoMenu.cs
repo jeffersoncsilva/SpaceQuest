@@ -10,6 +10,8 @@ public class NavegacaoMenu : MonoBehaviour
     public GameObject telaProcuraItens;
     public GameObject elementoMapa;
     public GameObject detalhes;
+    public GameObject loja;
+    public Text txt_dinheiroLoja;
     private bool clickHere = true;
 
     //variaveis referente a busca da imagem do mapa.
@@ -29,7 +31,9 @@ public class NavegacaoMenu : MonoBehaviour
     void Start()
     {
         DesativaTelas();
-        menuInicio.SetActive(true);
+        clickHere = true;
+        this.detalhes.SetActive(true);
+        cliqueAqui.SetActive(true);
     }
 
     // Update is called once per frame
@@ -41,6 +45,11 @@ public class NavegacaoMenu : MonoBehaviour
             menuInicio.SetActive(true);
             clickHere = false;
         }
+        else if (Input.GetKey(KeyCode.Escape) && !clickHere)
+        {
+            Voltar();
+        }
+        
     }
 
     public void Jogar()
@@ -58,7 +67,8 @@ public class NavegacaoMenu : MonoBehaviour
 
     public void Loja()
     {
-        Debug.Log("em breve a loja");
+        this.loja.SetActive(true);
+        this.txt_dinheiroLoja.text = string.Format(""+GetDinheiroJogador());
     }
 
     public void ProcuraItens()
@@ -76,6 +86,12 @@ public class NavegacaoMenu : MonoBehaviour
         menuInicio.SetActive(false);
         escolhaPersonagem.SetActive(false);
         telaProcuraItens.SetActive(false);
+        this.loja.SetActive(false);
+    }
+
+    private int GetDinheiroJogador()
+    {
+        return PlayerPrefs.GetInt(Player.DINHEIRO);
     }
 
     private IEnumerator MostraImagemMapa()
